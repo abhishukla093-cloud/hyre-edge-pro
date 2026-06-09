@@ -1,5 +1,6 @@
 
-
+import { GoogleAnalytics } from "@next/third-parties/google";
+import { FaWhatsapp } from "react-icons/fa";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -25,7 +26,15 @@ export default function RootLayout({
         {children}
 
         <Footer />
-
+         <a
+    href="https://wa.me/917011517964"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg z-50 text-3xl"
+  >
+    <FaWhatsapp />
+  </a>
+  <GoogleAnalytics gaId="G-GCZNTG29FF" />
       </body>
     </html>
   );
