@@ -84,21 +84,21 @@ export default function Navbar() {
   <div className="md:hidden bg-slate-900 border-t border-slate-800">
     <div className="flex flex-col p-6 gap-4 text-white">
 
-      <Link href="/" className="text-white">Home</Link>
+      <Link href="/" onClick={() => setIsOpen(false)} className="text-white">Home</Link>
 
-      <Link href="/about" className="text-white">About</Link>
+      <Link href="/about" onClick={() => setIsOpen(false)} className="text-white">About</Link>
 
-      <Link href="/services" className="text-white">Services</Link>
+      <Link href="/services" onClick={() => setIsOpen(false)} className="text-white">Services</Link>
 
-      <Link href="/technologies" className="text-white">Technologies</Link>
+      <Link href="/technologies" onClick={() => setIsOpen(false)} className="text-white">Technologies</Link>
 
-      <Link href="/careers" className="text-white">Careers</Link>
+      <Link href="/careers" onClick={() => setIsOpen(false)} className="text-white">Careers</Link>
 
-      <Link href="/vendor-registration" className="text-white">
+      <Link href="/vendor-registration" onClick={() => setIsOpen(false)} className="text-white">
         Vendor Registration
       </Link>
 
-      <Link href="/contact" className="text-white">Contact</Link>
+      <Link href="/contact" onClick={() => setIsOpen(false)} className="text-white">Contact</Link>
 
       <button className="bg-blue-600 text-white px-5 py-3 rounded-xl mt-3">
         Hire Talent
