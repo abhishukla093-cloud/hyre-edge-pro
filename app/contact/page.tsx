@@ -34,11 +34,11 @@ export default function ContactPage() {
             </p>
 
             <p className="mb-4">
-              📞 +91 XXXXX XXXXX
+              📞 +91 7011517964
             </p>
 
             <p>
-              📍 Bhawnaathpur, main road , chor gali, Rijala khaini dukaan ke paas
+              📍 Sector 62, Opposite Noida Electronic City Metro, Noida. 201301
             </p>
 
           </div>
